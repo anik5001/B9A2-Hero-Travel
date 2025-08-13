@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.mulish {
+  font-family: "Mulish", sans-serif;
+}
+
+.banner-1 {
+  border-radius: 16px;
+
+  background-image: linear-gradient(rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0)),
+    url("./Images/Group\ 13\ .png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.banner-1-menu {
+  border-radius: 8px;
+
+  background: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+}
+.banner-1 .item-1 {
+  width: 170px;
+  height: 50px;
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+.find-btn {
+  border-radius: 8px;
+
+  background: rgba(255, 84, 0, 1);
+  width: 170px;
+  height: 50px;
+}
