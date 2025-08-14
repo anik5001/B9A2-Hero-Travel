@@ -40,3 +40,91 @@
   width: 170px;
   height: 50px;
 }
+.b-img1 {
+  background-image: url("./Images/Rectangle\ 5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+}
+.b-img2 {
+  background-image: url("./Images/Rectangle\ 8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+}
+.b-img3 {
+  background-image: url("./Images/Rectangle\ 6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 25%;
+  height: 290px;
+}
+.b-img4 {
+  background-image: url("./Images/Rectangle\ 7.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 290px;
+}
+.b-img5 {
+  background-image: url("./Images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 25%;
+  height: 290px;
+}
+.b-img6 {
+  background-image: url("./Images/Rectangle\ 11.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 35%;
+  height: 290px;
+}
+.b-img7 {
+  background-image: url("./Images/Rectangle\ 10.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 65%;
+  height: 290px;
+}
+.card {
+}
+
+/* responsive for mobile */
+
+@media screen and (max-width: 576px) {
+  .banner-1 {
+    height: fit-content;
+  }
+  .banner-1-menu {
+  }
+  .banner-1 .item-1 {
+    width: 170px;
+    height: 50px;
+    background-color: #ffffff;
+    color: black;
+
+    border-radius: 8px;
+  }
+  .b-img1,
+  .b-img2,
+  .b-img3,
+  .b-img4,
+  .b-img5,
+  .b-img6,
+  .b-img7 {
+    width: 330px;
+    height: 170px;
+    gap: 16px;
+  .sob-pic {
+  }
+}
