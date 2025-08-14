@@ -152,6 +152,10 @@ form input {
 footer {
   background: rgba(19, 19, 24, 0.05);
 }
+nav {
+  position: sticky;
+  top: -10px;
+}
 /* responsive for mobile */
 
 @media screen and (max-width: 576px) {
