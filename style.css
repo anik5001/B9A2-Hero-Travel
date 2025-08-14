@@ -96,9 +96,44 @@
   width: 65%;
   height: 290px;
 }
-.card {
+/* deals and discount section */
+.deals-discount-img {
+  background-image: url("./Images/Group\ 39.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  border-radius: 16px;
 }
+.deals-discount-img2 {
+  background-image: url("./Images/Group\ 40.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 16px;
+}
+.deals-discount-img3 {
+  background-image: url("./Images/Group\ 39.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  border-radius: 16px;
+}
+.bgrgba {
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 16px;
 
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.6);
+}
 /* responsive for mobile */
 
 @media screen and (max-width: 576px) {
@@ -125,6 +160,5 @@
     width: 330px;
     height: 170px;
     gap: 16px;
-  .sob-pic {
   }
 }
